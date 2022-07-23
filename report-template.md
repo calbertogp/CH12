@@ -14,18 +14,14 @@ In this section, describe the analysis you completed for the machine learning mo
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
-
-
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+* Machine Learning Model 1: In this model I was trying to predict risky loan applications so that they can be flagged while in the application process. 
+* Machine Learning Model 2: Same but with Random over fitting. 
+  * Description of Models and diferences between 2nd and first: Recall for true-negatives increase 0.08 to .99 and false-positives decreases by .01 to 0.84. Accuracy also improved slightly to 0.9939 from 0.9918.
 
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
+* The second one with ROS increased 0.08 in true-negatives
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+Yes, depending on the problem the 1 or 0 will have a different monetary value and importance tied to it. 
